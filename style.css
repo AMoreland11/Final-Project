@@ -472,3 +472,40 @@ p.step-description {
     line-height: 2;
     color: rgb(113 128 150);
 }
+
+
+/* Values Section */
+
+#values {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.values-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+
+
+.values-column-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+img.values-img-container {
+    max-width: 100%;
+}
