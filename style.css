@@ -390,10 +390,11 @@ h2.quality-header {
     display: flex;
     padding-top: 96px;
     padding-bottom: 96px;
+    position: relative;
 }
 
 .get-started-txt-container {
-    width: 50%;
+    max-width: 100%;
     margin-left: 64px;
 }
 
@@ -418,15 +419,18 @@ h2.get-started-header {
     padding-bottom: 32px;
 }
 
-img.get-start-img {
-    max-width: 100%;
+
+.get-started-img-container {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* li.steps {
-    flex-direction: row;
-    display: flex;
-    align-items: flex-start;
-} */
+
+img.get-start-img {
+    width: 100%;
+}
 
 .step-number {
     font-size: 2.25rem;
@@ -434,6 +438,8 @@ img.get-start-img {
     line-height: 1;
     color: rgb(160 174 192);
     opacity: .5;
+    width: -webkit-fill-available;
+    max-width: 10%;
 }
 
 h6.step-header {
@@ -442,10 +448,27 @@ h6.step-header {
     line-height: 1;
 }
 
-ul.steps-container {n
+ul.steps-container {
     margin-top: 46px;
 }
 
 .step-txt {
     margin-left: 16px;
+}
+
+li.steps {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+p.step-description {
+    margin-top: 0.75rem;
+    max-width: 20rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 2;
+    color: rgb(113 128 150);
 }
