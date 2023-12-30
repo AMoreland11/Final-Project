@@ -493,19 +493,78 @@ p.step-description {
 
 
 .values-column-1 {
-    width: 50%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
 }
 
 
+h5.values-title {
+    font-family: inherit;
+    font-size: inherit;
+    letter-spacing: 1.125px;
+}
+
+.value-txt {
+    width: 100%;
+}
+
+h2.values-header {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.25;
+    margin-top: 16px;
+    color: rgb(36 62 99);
+    width: 100%;
+    letter-spacing: 1.125px;
+}
+
+p.values-para {
+    margin-top: 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: rgb(125 139 161);
+    line-height: 1.625;
+}
 
 
+p.affordable-para {
+    margin-top: 16px;
+    color: rgb(113 128 150);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.625;
+    letter-spacing: 1px;
+    text-align: left;
+}
 
 
+.values-principles-container {
+    display: flex;
+}
 
+.values-affordable {
+    margin-top: 32px;
+    margin-right: 32px;
+}
 
+.values-professionalism {
+    margin-top: 32px;
+    margin-right: 32px;
+}
 
 img.values-img-container {
     max-width: 100%;
+}
+
+a.learn-more.values-btn {
+    width: 30%;
+    text-align: center;
+    margin-top: 48px;
+}
+
+a.learn-more.values-btn:hover {
+    color: rgba(60, 14, 153, 0.877);
 }
