@@ -509,6 +509,46 @@ h5.values-title {
     width: 100%;
 }
 
+.values-profess-icon {
+    display: flex;
+    align-items: center;
+}
+
+
+.values-afford-icon {
+    display: flex;
+    align-items: center;
+}
+
+
+i.fa-solid.fa-dollar-sign {
+    margin-right: 16px;
+    background-color: rgb(154, 230, 180);
+    color: rgb(39 103 73);
+    border-radius: 50%;
+    border-width: 1px;
+    height: 48px;
+    width: 48px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+i.fa-solid.fa-suitcase {
+    margin-right: 16px;
+    background-color: rgb(254, 178, 178);
+    color: rgb(155 44 44);
+    border-radius: 50%;
+    border-width: 1px;
+    height: 48px;
+    width: 48px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
 h2.values-header {
     text-align: left;
     font-size: 48px;
