@@ -619,3 +619,86 @@ a.learn-more.values-btn {
 a.learn-more.values-btn:hover {
     color: rgba(60, 14, 153, 0.877);
 }
+
+
+
+/* Plans */
+
+
+#plans {
+    width: 100;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.plans-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-plans-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.plan-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-2-header {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.plan-feature {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-1 {
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    max-width: 24rem;
+    width: 100%;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.plan-2 {
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    max-width: 24rem;
+    width: 100%;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.plan-3 {
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    max-width: 24rem;
+    width: 100%;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    margin-top: 4rem;
+    position: relative;
+}
