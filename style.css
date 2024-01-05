@@ -895,3 +895,32 @@ button.plans-btn {
 .plans-3-btne:after:hover{
     transform: scaleX(1), scaleY(1);
 }
+
+
+/* Get started footer */
+
+#get-started-footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.started-footer-container  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(100, 21, 255);
+    border-radius: 12px;
+}
+
+.started-footer-column-1 {
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+h5.started-footer-txt {
+    max-width: 30rem;
+    width: 100%;
+}
