@@ -626,33 +626,136 @@ a.learn-more.values-btn:hover {
 
 
 #plans {
-    width: 100;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+.plans-container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .plans-header-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 100%;
+    margin-top: 2.5rem;
 }
+
+h5.plans-header {
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2.plans-subtitle {
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.025rem;
+    font-size: 3rem;
+    color: rgb(36 62 99);
+    line-height: 1.5;
+}
+
+p.plans-para {
+    width: 100%;
+    text-align: center;
+    font-size: 1.245rem;
+    margin-top: 1rem;
+    max-width: 36rem;
+    font-weight: 500;
+    line-height: 1.625;
+    color: rgb(124 139 161);
+}
+
 
 .three-plans-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
+
+.plan-1-color {
+    /* position: absolute; */
+    height: 0.5rem;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background: linear-gradient(115deg, rgb(56, 178, 172), rgb(129, 230, 217));
+    width: 100%;
+    max-width: 24rem;
+}
+
+.plan-3-color {
+    height: 0.5rem;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background: linear-gradient(115deg, rgb(245, 101, 101), rgb(254, 178, 178));
+}
 
 .plan-header {
     display: flex;
     flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    line-height: 1.625;
+    padding: 2rem 5.5rem;
+    border: 1px solid rgb(226, 232, 240);
 }
 
 .plan-2-header {
     display: flex;
     flex-direction: column;
+}
+
+.plan-2-feature {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 1.125px;
+    font-size: 1.25rem;
+}
+
+span.name {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+span.price {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+span.monthly {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    opacity: 1;
+    color: rgb(160 174 192);
+}
+
+.plan-2-header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    line-height: 1.625;
 }
 
 
@@ -662,43 +765,133 @@ a.learn-more.values-btn:hover {
 }
 
 .plan-1 {
-    justify-content: center;
-    align-items: center;
-    border: solid;
     max-width: 24rem;
     width: 100%;
     text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
     margin-top: 4rem;
+    margin-right: 2rem;
     position: relative;
+    border-radius: 0.5rem;
 }
 
 .plan-2 {
-    justify-content: center;
-    align-items: center;
     border: solid;
     max-width: 24rem;
     width: 100%;
     text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
     padding-top: 1rem;
     margin-top: 4rem;
-    position: relative;
+    background-image: linear-gradient(135deg, rgb(76, 81, 191), rgb(102,126,234));
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.plans-2-btn-container {
+    padding-top: 2.2rem;
+    padding-bottom: 2.02rem;
 }
 
 .plan-3 {
-    justify-content: center;
-    align-items: center;
-    border: solid;
     max-width: 24rem;
     width: 100%;
     text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
     margin-top: 4rem;
-    position: relative;
+}
+
+.plan-1-features {
+    padding: 2.5rem 4.5rem;
+    border: 1px solid rgb(226, 232, 240);
+}
+
+.plan-3-features {
+    padding: 2rem;
+    padding: 2.5rem 3rem;
+    border: 1px solid rgb(226, 232, 240);
+}
+
+span.name-feature {
+    font-size: 1.23rem;
+    font-weight: 700;
+    letter-spacing: .025rem;
+}
+
+.plan-2-features {
+    padding: 2.5rem 3rem;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(102 126 234);
+}
+span.plan-feature {
+    margin-top: 1.25rem;
+    font-weight: 500;
+    color: rgb(113 128 150);
+    font-size: 1.25rem;
+}
+
+button.plans-btn {
+    width: 100%;
+    border-radius: 35%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: .875rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    background: linear-gradient(115deg, rgb(56 178 172), rgb(129, 230, 217));
+}
+
+.plans-btn {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(226 232 250);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.plans-1-btn {
+    background: linear-gradient(115deg, rgb(56, 178, 172), rgb(129, 230, 217));
+    padding: 2rem 5rem;
+    border: solid;
+    border-style: none;
+    color: white;
+    border-radius: 2.5rem;
+    font-size: inherit;
+    font-weight: 700;
+    letter-spacing: 1.125px;
+    line-height: 1.625;
+}
+
+.plans-2-btn {
+    background-color: rgb(247 250 252);
+    padding: 2rem 5rem;
+    border: solid;
+    border-style: none;
+    color: rgb(100 21 255);
+    border-radius: 2.5rem;
+    font-size: inherit;
+    font-weight: 700;
+    letter-spacing: 1.125px;
+    line-height: 1.625;
+}
+
+.plans-3-btn {
+    background: linear-gradient(115deg, rgb(245 101 101), rgb(254 178 178));
+    padding: 2rem 5rem;
+    border: solid;
+    border-style: none;
+    color: white;
+    border-radius: 2.5rem;
+    font-size: inherit;
+    font-weight: 700;
+    letter-spacing: 1.125px;
+    line-height: 1.625;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.plans-3-btne:after:hover{
+    transform: scaleX(1), scaleY(1);
 }
