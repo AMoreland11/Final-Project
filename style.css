@@ -924,3 +924,20 @@ h5.started-footer-txt {
     max-width: 30rem;
     width: 100%;
 }
+
+a.started-footer-link-1 {
+    border: solid;
+    background-color: rgb(240 101 101);
+    padding: 2rem 3.5rem;
+    margin-right: 28px;
+}
+
+a.started-footer-link-2{
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    background-color: transparent;
+    padding: 2rem 3.5rem;
+    margin-right: 28px;
+    border-radius: 12px;
+}
