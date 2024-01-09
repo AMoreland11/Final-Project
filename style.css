@@ -1070,3 +1070,41 @@ a.footer-social-link {
     width: 15.99px;
     text-align: center;
 }
+
+
+/* slide left and right */
+
+
+.scrolled.slide-left {
+    animation: slide-in-left 1.5s ease-in-out;
+}
+
+
+.scrolled.slide-right {
+    animation: slide-in-right 1.5s ease-in-out;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-130%);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(130%);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
