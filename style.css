@@ -3,6 +3,10 @@
 
 /* General */
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -1075,12 +1079,11 @@ a.footer-social-link {
 /* slide left and right */
 
 
-.scrolled.slide-left {
+.scrolled.slide-left{
     animation: slide-in-left 1.5s ease-in-out;
 }
 
-
-.scrolled.slide-right {
+ .scrolled.slide-right {
     animation: slide-in-right 1.5s ease-in-out;
 }
 
@@ -1098,7 +1101,7 @@ a.footer-social-link {
 
 @keyframes slide-in-right {
     0% {
-        transform: translateX(130%);
+        transform: translateX(150%);
         opacity: 0;
     }
 

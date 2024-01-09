@@ -8,7 +8,7 @@
 //     document.body.classList += "slide-right"
 // }
 
-const scrollOffset = 60;
+const scrollOffset = 30;
 const sections = document.querySelectorAll(".animate-section");
 
 const sectionInView = (section, offset = 0) => {
