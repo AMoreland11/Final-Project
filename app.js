@@ -1,14 +1,5 @@
-// function slideLeft() {
-//     document.body.classlist += "slide-left"
-// }
 
-
-
-// function slideRight() {
-//     document.body.classList += "slide-right"
-// }
-
-const scrollOffset = 30;
+const scrollOffset = 60;
 const sections = document.querySelectorAll(".animate-section");
 
 const sectionInView = (section, offset = 0) => {
