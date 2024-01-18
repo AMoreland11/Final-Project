@@ -1111,3 +1111,215 @@ a.footer-social-link {
     }
 }
 
+
+@media (max-width:720px) {
+    #section-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 30rem;
+        margin-top: 3rem;
+    }
+
+    .right-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 34rem;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-weight: 900;
+        letter-spacing: 0.25rem;
+    }
+
+    .feature-para {
+        width: 100%;
+    }
+
+    .img-container{
+        padding: 24px;
+        margin: 24px;
+
+    }
+
+    .quality-column-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .quality-txt {
+        text-align: center;
+        padding-left: 4rem;
+        padding-top: 3rem;
+    }    
+
+    .get-started-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .get-started-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    li.steps{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .step-number{
+        padding-bottom: 1rem;
+    }
+
+    .get-started-img-container {
+        max-width: 100%;
+    }
+
+    .values-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .values-column-1 {
+        display: flex;
+        padding-top: 3rem;
+        padding-left: 5rem;
+        max-width: 100%;
+    }
+
+    .value-txt {
+        text-align: center;
+    }
+
+    .values-principles-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .values-affordable-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* .affordable-para {
+        width: 50%;
+        align-items: center;
+    } */
+
+    .values-btn {
+        padding: 12px 0 0 5px;
+    }
+
+    .three-plans-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .started-footer-column-1{
+        width: 100%;
+        text-align: center;
+    } 
+
+
+    .started-footer-column-2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 5rem;
+    }
+
+    .started-footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+    }
+
+    .footer-column {
+        margin-left: 24px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-columns-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .footer-divider {
+        margin-left: -128px;
+    }
+
+    .footer-copyrights {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-para {
+        margin: 3rem;
+    }
+}
+
+@media (max-width:480px) {
+    .nav-bar {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .button {
+        margin-left: -1rem;
+    }
+
+    #section-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .left-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-signup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-section {
+        width: 100%;
+    }
+}
