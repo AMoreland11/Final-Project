@@ -867,6 +867,16 @@ button.plans-btn {
     font-weight: 700;
     letter-spacing: 1.125px;
     line-height: 1.625;
+    position: relative;
+    transition: top 300ms ease;
+    top: 0;
+    cursor: pointer;
+}
+
+.plans-1-btn:hover,
+.plans-2-btn:hover,
+.plans-3-btn:hover {
+    top: -10px;
 }
 
 .plans-2-btn {
@@ -881,6 +891,10 @@ button.plans-btn {
     font-weight: 700;
     letter-spacing: 1.125px;
     line-height: 1.625;
+    position: relative;
+    transition: top 300ms ease;
+    top: 0;
+    cursor: pointer;
 }
 
 .plans-3-btn {
@@ -895,13 +909,12 @@ button.plans-btn {
     font-weight: 700;
     letter-spacing: 1.125px;
     line-height: 1.625;
-    transition: all 300ms ease;
+    position: relative;
+    transition: top 300ms ease;
+    top: 0;
     cursor: pointer;
 }
 
-.plans-3-btne:after:hover{
-    transform: scaleX(1), scaleY(1);
-}
 
 
 /* Get started footer */
@@ -945,6 +958,15 @@ a.started-footer-link-1 {
     background-color: rgb(240 101 101);
     padding: 2rem 4rem;
     margin-right: 28px;
+    position: relative;
+    transition: top 300ms ease;
+    top: 0;
+    cursor: pointer;
+}
+
+a.started-footer-link-1:hover,
+a.started-footer-link-2:hover{
+    top: -10px;
 }
 
 a.started-footer-link-2{
@@ -959,6 +981,10 @@ a.started-footer-link-2{
     padding: 2rem 4rem;
     margin-right: 28px;
     border-radius: 48px;
+    position: relative;
+    transition: all 300ms ease;
+    top: 0;
+    cursor: pointer;
 }
 
 
@@ -1004,6 +1030,10 @@ ul.footer-links {
 
 li.link {
     list-style: none;
+}
+
+li.link:hover {
+    text-decoration: underline;
 }
 
 
@@ -1198,7 +1228,6 @@ a.footer-social-link {
     }
 
     .values-column-1 {
-        display: flex;
         padding-top: 3rem;
         padding-left: 5rem;
         max-width: 100%;
@@ -1222,10 +1251,9 @@ a.footer-social-link {
         width: 100%;
     }
 
-    /* .affordable-para {
-        width: 50%;
-        align-items: center;
-    } */
+    .affordable-para {
+        width: 65%;
+    }
 
     .values-btn {
         padding: 12px 0 0 5px;
