@@ -1228,6 +1228,7 @@ a.footer-social-link {
     }
 
     .values-column-1 {
+        align-items: center;
         padding-top: 3rem;
         padding-left: 5rem;
         max-width: 100%;
@@ -1240,6 +1241,7 @@ a.footer-social-link {
     .values-principles-container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
@@ -1251,7 +1253,15 @@ a.footer-social-link {
         width: 100%;
     }
 
-    .affordable-para {
+    .values-professionalism-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .affordable-para, .professionalism-para {
         width: 65%;
     }
 
